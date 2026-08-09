@@ -1,0 +1,78 @@
+body {
+  font-family: 'Inter', sans-serif;
+   background-color: hsl(0, 0%, 8%);
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.card {
+  display: flex;
+  width: 17rem;
+  height: auto;
+  flex-direction: column;
+  background-color:hsl(0, 0%, 12%) ;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 1.7%
+  
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column; 
+  gap: .9rem;
+  
+}
+
+.social-links {
+  background-color:hsl(0, 0%, 20%);
+  border: none;
+  cursor: pointer;
+  border-radius: .30rem;
+  padding: .75rem;
+  color:hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: .8rem;
+  outline:none;
+  transition: all 0.3s ease;
+}
+
+.social-links:hover {
+  background-color: hsl(75, 94%, 57%);
+  color:hsl(0, 0%, 12%);
+
+}
+
+.card-image-container {
+  text-align: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 4.5rem;
+  
+}
+
+.username {
+  color:hsl(0, 0%, 100%);
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.location {
+  color:hsl(75, 94%, 57%);
+  font-size: .80rem;
+  padding: .10rem;
+  margin-top: .2rem;
+}
+
+.bio {
+  color:hsl(0, 0%, 70%);
+  font-size: .75rem;
+  margin-bottom: 1.2rem;
+  font-size: .7;
+}
+
